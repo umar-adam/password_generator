@@ -65,7 +65,7 @@ website_input.focus()   # This focuses the cursor into the input field
 
 email_input = Entry(width=35)
 email_input.grid(row=2, column=1, columnspan=2, sticky=EW)
-email_input.insert(0, "youremailhere@email.com")     # Index is the location where it auto-writes the email
+email_input.insert(0, "youremailhere@email.com")     # It auto-writes the email that you choose in this field
 
 password_input = Entry(width=21)
 password_input.grid(row=3, column=1, sticky=EW)
